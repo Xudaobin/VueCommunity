@@ -1,7 +1,9 @@
-# my-vueone
+# VueCommunity
 
 > 根据vue社区提供的开放api制作的vue社区，功能大部分和原vue社区一样,小白的vue初体验。这个项目适合vue入门到进阶的人群
 
+***项目用到的技术：vue+vuex+vue-route+vue-cli+axios+vue-lazyload+better-scroll***
+*布局采用弹性盒子+rem适配,小图标用的是阿里的矢量图库*
 ## Build Setup
 
 ``` bash
