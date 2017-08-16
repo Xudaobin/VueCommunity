@@ -1,0 +1,113 @@
+/* all 文件的  css  */
+
+.recommend {
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    bottom: 0;
+    padding-bottom: 104px;
+}
+
+.recommend-content {
+    height: 100%;
+    overflow: hidden;
+}
+
+.all {
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 14px;
+    box-sizing: border-box;
+}
+
+.itemLi {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 10px;
+    position: relative;
+}
+
+.itemTop {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.itemBottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+    color: #92a8c1;
+}
+
+.itemTab {
+    position: absolute;
+    padding: 1px 3px;
+    color: #fff;
+    border-radius: 4px;
+    right: 0;
+    top: 9px;
+    background-color: #92a8c1;
+}
+
+.itemTitle {
+    margin: 0 0 10px 11px;
+    width: 66%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.itemImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.itemImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.itemAmount {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.itemDate {
+    margin-left: 14px;
+}
+
+.itemAmountOne {
+    margin-right: 8px;
+}
+
+.GenDuo {
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.good {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 60px;
+    color: #ff4853;
+    opacity: 0.1;
+    font-weight: bold;
+    line-height: 160%;
+    transform: rotate(40deg);
+}
