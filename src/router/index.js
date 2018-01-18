@@ -1,55 +1,18 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-const All = (resolve) => {
-    import ('../components/all/all').then((module) => {
-        resolve(module)
-    })
-}
-const Details = (resolve) => {
-    import ('../components/details/details').then((module) => {
-        resolve(module)
-    })
-}
-const Review = (resolve) => {
-    import ('../components/review/review').then((module) => {
-        resolve(module)
-    })
-}
-const Login = (resolve) => {
-    import ('../components/login/login').then((module) => {
-        resolve(module)
-    })
-}
-const User = (resolve) => {
-    import ('../components/user/user').then((module) => {
-        resolve(module)
-    })
-}
-const Topic = (resolve) => {
-    import ('../components/topic/topic').then((module) => {
-        resolve(module)
-    })
-}
-const Message = (resolve) => {
-    import ('../components/message/message').then((module) => {
-        resolve(module)
-    })
-}
-const Unread = (resolve) => {
-    import ('../components/unread/unread').then((module) => {
-        resolve(module)
-    })
-}
-const Releas = (resolve) => {
-    import ('../components/releas/releas').then((module) => {
-        resolve(module)
-    })
-}
+const All = () => import(/* webpackChunkName: "min" */ '@/components/all/all')
+const Details = () => import(/* webpackChunkName: "min" */ '@/components/details/details')
+const Review = () => import(/* webpackChunkName: "min" */ '@/components/review/review')
+const Unread = () => import(/* webpackChunkName: "min" */ '@/components/unread/unread')
+const Releas = () => import(/* webpackChunkName: "min" */ '@/components/releas/releas')
+const Login = () => import(/* webpackChunkName: "login" */ '@/components/login/login')
+const User = () => import(/* webpackChunkName: "login" */ '@/components/user/user')
+const Topic = () => import(/* webpackChunkName: "login" */ '@/components/topic/topic')
+const Message = () => import(/* webpackChunkName: "login" */ '@/components/message/message')
 Vue.use(Router)
 
 export default new Router({
-    mode: 'history',
     routes: [{
             path: '/',
             redirect: '/all'

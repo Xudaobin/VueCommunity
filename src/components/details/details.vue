@@ -16,7 +16,7 @@
       </div>
     </Scroll>
     <CommIt ref="Commit" :isLove='isLove' :commentsNumber='commentsNumber' @Pin='Pin' @back='back' @collection='AddCollection' iStrue='true'></CommIt>
-      <Loading class="detailsLoading" v-show="!avatar_url"></Loading>    
+      <Loading class="detailsLoading" v-show="!avatar_url"></Loading>
   </div>
 </template>
 
@@ -26,7 +26,7 @@
   import Scroll from '../../base/scroll/scroll'
   import Loading from '../../base/loading/loading'
   import CommIt from '../commit/commit'
-  import {IsLodin} from '../../assets/js/js' 
+  import {IsLodin} from '../../assets/js/js'
   export  default{
     data() {
       return {
@@ -52,7 +52,7 @@
       this._getData(this.ItemId)
     },
     mounted() {
-     
+
     },
     methods: {
       _getData(Id) {

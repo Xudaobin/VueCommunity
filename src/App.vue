@@ -29,7 +29,7 @@
     },
     components: {
       MyBottom,
-      MyHeader  
+      MyHeader
     },
     watch: {
       // 检测那个路由过来，分别给出不同的动画
@@ -49,7 +49,7 @@
 
 <style>
   @import "./assets/css/publicStyle.css";
-  @import url('http://at.alicdn.com/t/font_nsen2cixyctyb9.css');
+  @import 'http://at.alicdn.com/t/font_nsen2cixyctyb9.css';
   #app{
     width: 100%;
     height: 100%;
